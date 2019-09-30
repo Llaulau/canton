@@ -1,0 +1,10 @@
+import UIKit
+
+class informationCanton: [String:UInt] = [String:UInt]()
+
+cantonName = String!
+cantonPopulation = Int!
+cantonSize = Int!
+cantonLanguage = String!
+
+var cantonName
