@@ -1,10 +1,12 @@
 import UIKit
 
-class informationCanton: [String:UInt] = [String:UInt]()
+var informationCanton: [String: UInt] = [:]
 
-cantonName = String!
-cantonPopulation = Int!
-cantonSize = Int!
-cantonLanguage = String!
+var cantonName: String!
+var cantonPopulation: Int!
+var cantonSize: Int!
+var cantonLanguage: String!
 
-var cantonName
+// Assign a value to the cantonName variable
+cantonName = "Sample Canton"
+
